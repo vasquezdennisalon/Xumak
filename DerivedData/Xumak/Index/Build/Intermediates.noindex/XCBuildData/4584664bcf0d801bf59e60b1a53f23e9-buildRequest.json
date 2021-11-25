@@ -1,0 +1,66 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c8279400c2e8b2799db89cc7226704ed58e84ae79abff38a361fa6994284f8dc"
+    },
+    {
+      "guid" : "c8279400c2e8b2799db89cc7226704edf97c11ea21abc234d1dd28c2f2bbf1ef"
+    },
+    {
+      "guid" : "c8279400c2e8b2799db89cc7226704ed9df7eadee42106c636a7e2de9a386840"
+    }
+  ],
+  "containerPath" : "/Users/denisvasquez/Desktop/Xumak/Xumak.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64h",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64h"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/denisvasquez/Desktop/Xumak/DerivedData/Xumak/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/denisvasquez/Desktop/Xumak/DerivedData/Xumak/Index/Build/Products",
+      "derivedDataPath" : "/Users/denisvasquez/Desktop/Xumak/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/denisvasquez/Desktop/Xumak/DerivedData/Xumak/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/denisvasquez/Desktop/Xumak/DerivedData/Xumak/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/denisvasquez/Desktop/Xumak/DerivedData/Xumak/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/denisvasquez/Desktop/Xumak/DerivedData/Xumak/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

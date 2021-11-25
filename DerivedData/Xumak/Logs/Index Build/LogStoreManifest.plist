@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>38BC605A-4740-4483-B865-E1169CF2EDD3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>38BC605A-4740-4483-B865-E1169CF2EDD3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Xumak Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>659555112.54882205</real>
+			<key>timeStoppedRecording</key>
+			<real>659555112.59854496</real>
+			<key>title</key>
+			<string>Xumak Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>38BC605A-4740-4483-B865-E1169CF2EDD3</string>
+		</dict>
+		<key>9073207D-B925-471A-ADD1-E35B1D3F0039</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>9073207D-B925-471A-ADD1-E35B1D3F0039.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Xumak Build Description</string>
+			<key>timeStartedRecording</key>
+			<real>659555111.95486104</real>
+			<key>timeStoppedRecording</key>
+			<real>659555112.27106595</real>
+			<key>title</key>
+			<string>Xumak Build Description</string>
+			<key>uniqueIdentifier</key>
+			<string>9073207D-B925-471A-ADD1-E35B1D3F0039</string>
+		</dict>
+		<key>EADEDE6E-0950-4787-B666-9F9D67B454EA</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>EADEDE6E-0950-4787-B666-9F9D67B454EA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Workspace Build Description</string>
+			<key>timeStartedRecording</key>
+			<real>659555107.659729</real>
+			<key>timeStoppedRecording</key>
+			<real>659555112.23463094</real>
+			<key>title</key>
+			<string>Workspace Build Description</string>
+			<key>uniqueIdentifier</key>
+			<string>EADEDE6E-0950-4787-B666-9F9D67B454EA</string>
+		</dict>
+		<key>F4612B8A-E0D2-4F59-A777-739E7478120C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.IndexBuildLog</string>
+			<key>fileName</key>
+			<string>F4612B8A-E0D2-4F59-A777-739E7478120C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Index Build</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Xumak Build Preparation</string>
+			<key>timeStartedRecording</key>
+			<real>659555112.30047703</real>
+			<key>timeStoppedRecording</key>
+			<real>659555112.54868996</real>
+			<key>title</key>
+			<string>Xumak Build Preparation</string>
+			<key>uniqueIdentifier</key>
+			<string>F4612B8A-E0D2-4F59-A777-739E7478120C</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

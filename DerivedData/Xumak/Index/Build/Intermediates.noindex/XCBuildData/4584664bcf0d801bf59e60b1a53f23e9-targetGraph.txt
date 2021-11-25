@@ -1,0 +1,13 @@
+Target dependency graph (8 targets)
+Xumak in Xumak, no dependencies
+Xumak in Xumak, no dependencies
+XumakTests in Xumak, depends on:
+Xumak in Xumak (explicit)
+XumakTests in Xumak, depends on:
+Xumak in Xumak (explicit)
+XumakTests in Xumak, no dependencies
+XumakUITests in Xumak, depends on:
+Xumak in Xumak (explicit)
+XumakUITests in Xumak, depends on:
+Xumak in Xumak (explicit)
+XumakUITests in Xumak, no dependencies

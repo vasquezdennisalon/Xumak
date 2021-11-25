@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2637C20E2750031C009A8008 /* XumakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C20D2750031C009A8008 /* XumakApp.swift */; };
+		2637C2102750031C009A8008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C20F2750031C009A8008 /* ContentView.swift */; };
+		2637C2122750031E009A8008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2637C2112750031E009A8008 /* Assets.xcassets */; };
+		2637C2152750031E009A8008 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2637C2142750031E009A8008 /* Preview Assets.xcassets */; };
+		2637C21F2750031E009A8008 /* XumakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C21E2750031E009A8008 /* XumakTests.swift */; };
+		2637C2292750031E009A8008 /* XumakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C2282750031E009A8008 /* XumakUITests.swift */; };
+		2637C22B2750031E009A8008 /* XumakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C22A2750031E009A8008 /* XumakUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2637C21B2750031E009A8008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2637C2022750031B009A8008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2637C2092750031B009A8008;
+			remoteInfo = Xumak;
+		};
+		2637C2252750031E009A8008 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2637C2022750031B009A8008 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2637C2092750031B009A8008;
+			remoteInfo = Xumak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2637C20A2750031B009A8008 /* Xumak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xumak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2637C20D2750031C009A8008 /* XumakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XumakApp.swift; sourceTree = "<group>"; };
+		2637C20F2750031C009A8008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2637C2112750031E009A8008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2637C2142750031E009A8008 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2637C21A2750031E009A8008 /* XumakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XumakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2637C21E2750031E009A8008 /* XumakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XumakTests.swift; sourceTree = "<group>"; };
+		2637C2242750031E009A8008 /* XumakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XumakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2637C2282750031E009A8008 /* XumakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XumakUITests.swift; sourceTree = "<group>"; };
+		2637C22A2750031E009A8008 /* XumakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XumakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2637C2072750031B009A8008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2637C2172750031E009A8008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2637C2212750031E009A8008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2637C2012750031B009A8008 = {
+			isa = PBXGroup;
+			children = (
+				2637C20C2750031B009A8008 /* Xumak */,
+				2637C21D2750031E009A8008 /* XumakTests */,
+				2637C2272750031E009A8008 /* XumakUITests */,
+				2637C20B2750031B009A8008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2637C20B2750031B009A8008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2637C20A2750031B009A8008 /* Xumak.app */,
+				2637C21A2750031E009A8008 /* XumakTests.xctest */,
+				2637C2242750031E009A8008 /* XumakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2637C20C2750031B009A8008 /* Xumak */ = {
+			isa = PBXGroup;
+			children = (
+				2637C20D2750031C009A8008 /* XumakApp.swift */,
+				2637C20F2750031C009A8008 /* ContentView.swift */,
+				2637C2112750031E009A8008 /* Assets.xcassets */,
+				2637C2132750031E009A8008 /* Preview Content */,
+			);
+			path = Xumak;
+			sourceTree = "<group>";
+		};
+		2637C2132750031E009A8008 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2637C2142750031E009A8008 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2637C21D2750031E009A8008 /* XumakTests */ = {
+			isa = PBXGroup;
+			children = (
+				2637C21E2750031E009A8008 /* XumakTests.swift */,
+			);
+			path = XumakTests;
+			sourceTree = "<group>";
+		};
+		2637C2272750031E009A8008 /* XumakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2637C2282750031E009A8008 /* XumakUITests.swift */,
+				2637C22A2750031E009A8008 /* XumakUITestsLaunchTests.swift */,
+			);
+			path = XumakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2637C2092750031B009A8008 /* Xumak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2637C22E2750031E009A8008 /* Build configuration list for PBXNativeTarget "Xumak" */;
+			buildPhases = (
+				2637C2062750031B009A8008 /* Sources */,
+				2637C2072750031B009A8008 /* Frameworks */,
+				2637C2082750031B009A8008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xumak;
+			productName = Xumak;
+			productReference = 2637C20A2750031B009A8008 /* Xumak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2637C2192750031E009A8008 /* XumakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2637C2312750031E009A8008 /* Build configuration list for PBXNativeTarget "XumakTests" */;
+			buildPhases = (
+				2637C2162750031E009A8008 /* Sources */,
+				2637C2172750031E009A8008 /* Frameworks */,
+				2637C2182750031E009A8008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2637C21C2750031E009A8008 /* PBXTargetDependency */,
+			);
+			name = XumakTests;
+			productName = XumakTests;
+			productReference = 2637C21A2750031E009A8008 /* XumakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2637C2232750031E009A8008 /* XumakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2637C2342750031E009A8008 /* Build configuration list for PBXNativeTarget "XumakUITests" */;
+			buildPhases = (
+				2637C2202750031E009A8008 /* Sources */,
+				2637C2212750031E009A8008 /* Frameworks */,
+				2637C2222750031E009A8008 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2637C2262750031E009A8008 /* PBXTargetDependency */,
+			);
+			name = XumakUITests;
+			productName = XumakUITests;
+			productReference = 2637C2242750031E009A8008 /* XumakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2637C2022750031B009A8008 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2637C2092750031B009A8008 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					2637C2192750031E009A8008 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2637C2092750031B009A8008;
+					};
+					2637C2232750031E009A8008 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2637C2092750031B009A8008;
+					};
+				};
+			};
+			buildConfigurationList = 2637C2052750031B009A8008 /* Build configuration list for PBXProject "Xumak" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2637C2012750031B009A8008;
+			productRefGroup = 2637C20B2750031B009A8008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2637C2092750031B009A8008 /* Xumak */,
+				2637C2192750031E009A8008 /* XumakTests */,
+				2637C2232750031E009A8008 /* XumakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2637C2082750031B009A8008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2637C2152750031E009A8008 /* Preview Assets.xcassets in Resources */,
+				2637C2122750031E009A8008 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2637C2182750031E009A8008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2637C2222750031E009A8008 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2637C2062750031B009A8008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2637C2102750031C009A8008 /* ContentView.swift in Sources */,
+				2637C20E2750031C009A8008 /* XumakApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2637C2162750031E009A8008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2637C21F2750031E009A8008 /* XumakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2637C2202750031E009A8008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2637C2292750031E009A8008 /* XumakUITests.swift in Sources */,
+				2637C22B2750031E009A8008 /* XumakUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2637C21C2750031E009A8008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2637C2092750031B009A8008 /* Xumak */;
+			targetProxy = 2637C21B2750031E009A8008 /* PBXContainerItemProxy */;
+		};
+		2637C2262750031E009A8008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2637C2092750031B009A8008 /* Xumak */;
+			targetProxy = 2637C2252750031E009A8008 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2637C22C2750031E009A8008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2637C22D2750031E009A8008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2637C22F2750031E009A8008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xumak/Preview Content\"";
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.denis.vasquez.Xumak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2637C2302750031E009A8008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Xumak/Preview Content\"";
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.denis.vasquez.Xumak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2637C2322750031E009A8008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.denis.vasquez.XumakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xumak.app/Xumak";
+			};
+			name = Debug;
+		};
+		2637C2332750031E009A8008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.denis.vasquez.XumakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xumak.app/Xumak";
+			};
+			name = Release;
+		};
+		2637C2352750031E009A8008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.denis.vasquez.XumakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Xumak;
+			};
+			name = Debug;
+		};
+		2637C2362750031E009A8008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NHQ4J4KFND;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.denis.vasquez.XumakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Xumak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2637C2052750031B009A8008 /* Build configuration list for PBXProject "Xumak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2637C22C2750031E009A8008 /* Debug */,
+				2637C22D2750031E009A8008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2637C22E2750031E009A8008 /* Build configuration list for PBXNativeTarget "Xumak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2637C22F2750031E009A8008 /* Debug */,
+				2637C2302750031E009A8008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2637C2312750031E009A8008 /* Build configuration list for PBXNativeTarget "XumakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2637C2322750031E009A8008 /* Debug */,
+				2637C2332750031E009A8008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2637C2342750031E009A8008 /* Build configuration list for PBXNativeTarget "XumakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2637C2352750031E009A8008 /* Debug */,
+				2637C2362750031E009A8008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2637C2022750031B009A8008 /* Project object */;
+}
