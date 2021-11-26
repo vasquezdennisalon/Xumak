@@ -14,6 +14,12 @@
 		2637C21F2750031E009A8008 /* XumakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C21E2750031E009A8008 /* XumakTests.swift */; };
 		2637C2292750031E009A8008 /* XumakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C2282750031E009A8008 /* XumakUITests.swift */; };
 		2637C22B2750031E009A8008 /* XumakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C22A2750031E009A8008 /* XumakUITestsLaunchTests.swift */; };
+		2637C238275003AF009A8008 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C237275003AF009A8008 /* Book.swift */; };
+		2637C23A2750040D009A8008 /* BookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C2392750040D009A8008 /* BookItem.swift */; };
+		2637C23D27500563009A8008 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C23C27500563009A8008 /* BookView.swift */; };
+		2637C241275005E4009A8008 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C240275005E4009A8008 /* Shared.swift */; };
+		2637C2432750068C009A8008 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C2422750068C009A8008 /* Constants.swift */; };
+		2637C24B27507914009A8008 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2637C24A27507914009A8008 /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,13 @@
 		2637C2242750031E009A8008 /* XumakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XumakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2637C2282750031E009A8008 /* XumakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XumakUITests.swift; sourceTree = "<group>"; };
 		2637C22A2750031E009A8008 /* XumakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XumakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2637C237275003AF009A8008 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2637C2392750040D009A8008 /* BookItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItem.swift; sourceTree = "<group>"; };
+		2637C23C27500563009A8008 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		2637C240275005E4009A8008 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		2637C2422750068C009A8008 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2637C248275015A4009A8008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2637C24A27507914009A8008 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +107,11 @@
 		2637C20C2750031B009A8008 /* Xumak */ = {
 			isa = PBXGroup;
 			children = (
+				2637C248275015A4009A8008 /* Info.plist */,
 				2637C20D2750031C009A8008 /* XumakApp.swift */,
-				2637C20F2750031C009A8008 /* ContentView.swift */,
+				2637C23F2750057E009A8008 /* Models */,
+				2637C23E2750056D009A8008 /* Views */,
+				2637C249275025BF009A8008 /* Utils */,
 				2637C2112750031E009A8008 /* Assets.xcassets */,
 				2637C2132750031E009A8008 /* Preview Content */,
 			);
@@ -125,6 +141,34 @@
 				2637C22A2750031E009A8008 /* XumakUITestsLaunchTests.swift */,
 			);
 			path = XumakUITests;
+			sourceTree = "<group>";
+		};
+		2637C23E2750056D009A8008 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2637C20F2750031C009A8008 /* ContentView.swift */,
+				2637C23C27500563009A8008 /* BookView.swift */,
+				2637C24A27507914009A8008 /* EmptyState.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2637C23F2750057E009A8008 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2637C2392750040D009A8008 /* BookItem.swift */,
+				2637C237275003AF009A8008 /* Book.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2637C249275025BF009A8008 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2637C240275005E4009A8008 /* Shared.swift */,
+				2637C2422750068C009A8008 /* Constants.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +301,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2637C23D27500563009A8008 /* BookView.swift in Sources */,
 				2637C2102750031C009A8008 /* ContentView.swift in Sources */,
 				2637C20E2750031C009A8008 /* XumakApp.swift in Sources */,
+				2637C24B27507914009A8008 /* EmptyState.swift in Sources */,
+				2637C238275003AF009A8008 /* Book.swift in Sources */,
+				2637C2432750068C009A8008 /* Constants.swift in Sources */,
+				2637C241275005E4009A8008 /* Shared.swift in Sources */,
+				2637C23A2750040D009A8008 /* BookItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +472,7 @@
 				DEVELOPMENT_TEAM = NHQ4J4KFND;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xumak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +502,7 @@
 				DEVELOPMENT_TEAM = NHQ4J4KFND;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Xumak/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
